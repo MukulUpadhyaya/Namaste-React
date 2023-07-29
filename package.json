@@ -1,0 +1,31 @@
+{
+  "name": "ep-1",
+  "version": "1.0.0",
+  "description": "This namaste react series ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukulUpadhyaya/Namaste-React.git"
+  },
+  "keywords": [
+    "react",
+    "namasteReact"
+  ],
+  "author": "mukul upadhyaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MukulUpadhyaya/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/MukulUpadhyaya/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
