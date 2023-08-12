@@ -1,3 +1,29 @@
-#heading {
-    color: red;
-}
+NewHeader {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .search {
+    width: 200px;
+  }
+  
+  .user {
+    /* height: 20px;
+    width: 20px; */
+    height: 100vh;
+    max-width: 100em;
+    max-height: 100em;
+    clip-path: circle();
+    margin-top: -70px;
+    border-radius: 50%;
+  }
