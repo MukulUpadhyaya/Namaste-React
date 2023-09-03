@@ -6,29 +6,7 @@
     justify-content: space-between;
     border: 1px solid black
   }
-  .search{
-    margin-top: 5%;
-    width: 100%;
-    position: relative;
-    display:inline;
-  }
-  .searchTerm{
-    width: 100%;
-    border: 3px solid #00B4CC;
-    border-right: none;
-    padding: 5px;
-    height: 20px;
-    display: flex;
-    list-style-type: none;
-    border-radius: 5px 5px 5px 5px;
-    outline: none;
-    color: #9DBFAF;
   
-  }
-  .searchTerm:focus{
-    width: 100%;
-    color: #00B4CC;
-  }
   .logo {
     width: 200px;
   }
@@ -94,3 +72,16 @@
     margin: 10px;
     cursor: pointer;
    }
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-cards {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+  border-radius: 4%;
+}
