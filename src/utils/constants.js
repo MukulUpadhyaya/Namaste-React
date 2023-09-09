@@ -3,3 +3,5 @@ export const CDN_URL =
 
 export const LOGO_URL =
   "https://www.pngmart.com/files/21/Food-Delivery-Scooter-PNG-Isolated-Picture.png";
+
+  export const MENU_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.5050906&lng=88.2935519&restaurantId=";
