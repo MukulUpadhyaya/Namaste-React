@@ -18,7 +18,16 @@
   .nav-items {
     padding:  0px 20px;
   }
-  
+  .user-card {
+    margin: 20px;
+    width: 1000px;
+    height: 300px;
+    background-color: #f0f0f0;
+    font-family: Helvetica;
+    text-align: center;
+    justify-content: center;
+  }
+   
   .nav-items > ul {
     font-size: 20px;
     display: flex;
