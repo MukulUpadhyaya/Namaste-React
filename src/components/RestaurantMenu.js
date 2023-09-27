@@ -15,15 +15,15 @@ export const RestaurantMenu = () => {
     const { itemCards } =
       resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
     return(
-        <div className="RestaurantMenu">
-            <h1>{name}</h1>
-            <p>
+        <div className="m-4 p-4 w-[480px] rounded-lg bg-gray-100 hover:bg-gray-200">
+            <h1 className="font-sans font-bold py-4">{name}</h1>
+            <p className="font-sans font-bold">
                 {cuisines.join(", ")} - {costForTwoMessage}
             </p>
-            <h2>Menu</h2>
+            <h2 className="font-sans font-bold py-4">Menu</h2>
             <ul>
                 {itemCards.map((item) => (
-                <li key={item.card.info.id}>
+                <li  key={item.card.info.id}>
                     {item.card.info.name} -{" Rs."}
                     {item.card.info.price / 100 || item.card.info.defaultPrice / 100}
                 </li>

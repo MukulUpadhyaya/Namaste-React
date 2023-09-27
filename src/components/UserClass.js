@@ -21,7 +21,7 @@ export class UserClass extends React.Component{
     render(){
         console.log("Child-Class-render");
         const {count, count2} = this.state;
-        return(<div className="user-card">
+        return(<div className="m-4 p-4 w-[600px] rounded-lg bg-gray-100 hover:bg-gray-200">
             <div className="user-card-y">
             <h2>Count: {count}</h2>
             <h2>Count2: {count2}</h2>

@@ -18,7 +18,7 @@ export const UserFunciton = (props) => {
     console.log("Functional-Render");
     return(
        
-        <div className="user-card">
+        <div className="m-4 p-4 w-[600px] rounded-lg bg-gray-100 hover:bg-gray-200">
             <div className="user-card-y">
             <h2>Count: {count}</h2>
             <h2>Count2: {count2}</h2>
