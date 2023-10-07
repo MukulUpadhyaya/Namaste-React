@@ -1,9 +1,11 @@
 import { LOGO_URL } from "../utils/constants";
-import { useState} from "react";
+import { useContext, useState} from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Header = () => {
+  const {loggedInUser} = useContext(UserContext);
   const [btnName, setbtnName] = useState("LogIn");
   const onlineStatus = useOnlineStatus();
   return (
@@ -12,20 +14,21 @@ const Header = () => {
         <img className="object-contain h-48 w-full" src={LOGO_URL} />
       </div>
      
-      <div className="flex items-center">
+      <div className="flex items-center ">
         <ul className="flex p-4 m-4">
-          <li className="px-4 text-2xl">Online Status: {onlineStatus ? "✅" : "🔴"}</li>
-          <li className="px-4 text-2xl"><Link to={"/"}>Home</Link></li>
-          <li className="px-4 text-2xl"><Link to={"/about"}>About Us</Link></li>
-          <li className="px-4 text-2xl"><Link to={"/contact"}>Contact Us</Link></li>
-          <li className="px-4 text-2xl"><Link>Cart</Link></li>
+          <li className="px-4 text-xl">Online Status: {onlineStatus ? "✅" : "🔴"}</li>
+          <li className="px-4 text-xl"><Link to={"/"}>Home</Link></li>
+          <li className="px-4 text-xl"><Link to={"/about"}>About Us</Link></li>
+          <li className="px-4 text-xl"><Link to={"/contact"}>Contact Us</Link></li>
+          <li className="px-4 text-xl"><Link>Cart</Link></li>
         </ul>
-        <button
+        <button className="mx-2 text-xl"
         onClick={()=>{
           if(btnName!=="Logout")
           setbtnName("Logout")
         else
         setbtnName("Login")}}>{btnName}</button>
+        <h1>user: {loggedInUser}</h1>
       </div>
     </div>
   );
