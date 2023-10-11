@@ -38,5 +38,7 @@ import {Component} from "path";
 
 # React Hooks
  (Normal JS utility functions)
-- useState() - Superpowerful State Variables in react
+- useState() - Superpowerful State Variables in react!
 - useEffect()
+
+[1697044271733](https://github.com/MukulUpadhyaya/Namaste-React/assets/69319046/a0eef994-74c8-4de8-9bbd-36076eccff00)
