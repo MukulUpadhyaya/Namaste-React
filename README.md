@@ -41,4 +41,4 @@ import {Component} from "path";
 - useState() - Superpowerful State Variables in react!
 - useEffect()
 
-[1697044271733](https://github.com/MukulUpadhyaya/Namaste-React/assets/69319046/a0eef994-74c8-4de8-9bbd-36076eccff00)
+![1697044271733](https://github.com/MukulUpadhyaya/Namaste-React/assets/69319046/a0eef994-74c8-4de8-9bbd-36076eccff00)
