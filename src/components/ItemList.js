@@ -1,8 +1,15 @@
 // import { CDN_URL } from "../utils/constants";
+import {useDispatch} from "react-redux"
+import {addItem} from "../utils/cartSlice";
 
 const ItemList = (items) => {
     console.log(items);
-    const CDN_URL =   "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
+    const CDN_URL =   "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/"; 
+    const  dispatch = useDispatch();
+    const handleClick=(item)=>{
+        //Dispatch an action
+        dispatch(addItem(item));
+    }
     return (
         <div>
             {items.data.map((item)=>(
@@ -16,7 +23,7 @@ const ItemList = (items) => {
                 </div>{item.card.info.imageId &&
                     <div className="w-3/12">
                     <div className="absolute">
-                     <button className="px-2 py-1 mx-21 my-12 bg-black text-white rounded-md">Add</button>
+                     <button className="px-2 py-1 mx-21 my-12 bg-black text-white rounded-md" onClick={()=>handleClick(item)}>Add</button>
                      </div>
                      <img src={CDN_URL+item.card.info.imageId} />
                      
