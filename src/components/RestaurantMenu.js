@@ -33,6 +33,7 @@ export const RestaurantMenu = () => {
             <ul>
                 {categories.map((item, index) => (
                     <RestaurantCategory 
+                    key={index}
                     data={item?.card?.card}
                     showItems={index === showIndex ? true : false}
                     setShowItems={() => setShowItems(index)}></RestaurantCategory>

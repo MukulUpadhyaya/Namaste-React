@@ -26,7 +26,7 @@ const Cart = () => {
           {cartItems?.length === 0 && (
             <h1> Cart is empty. Add Items to the cart!</h1>
           )}
-          {cartItems? undefined: <ItemList items={cartItems} />}
+          {cartItems.length!==0? <ItemList data={cartItems} />: null}
         </div>
       </div>
     );
