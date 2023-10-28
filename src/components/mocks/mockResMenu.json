@@ -1,0 +1,625 @@
+[
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                "title": "Recommended",
+                "itemCards": [
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "99118853",
+                                "name": "Veg. Clear Soup",
+                                "category": "Soup",
+                                "imageId": "36e13ac25c22b7ac9b8ee79daa775a61",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 13000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "99118849",
+                                "name": "Veg. Clear Noodles Soup",
+                                "category": "Soup",
+                                "imageId": "36e13ac25c22b7ac9b8ee79daa775a61",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 14500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073544",
+                                "name": "Vegetable Chowmein",
+                                "category": "Noodles & Rice",
+                                "imageId": "iltiayra39c1hfjjsxk2",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 18000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "isBestseller": true,
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.2",
+                                        "ratingCount": "68 ratings",
+                                        "ratingCountV2": "68"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073545",
+                                "name": "Vegetable Hakka Noodles",
+                                "category": "Noodles & Rice",
+                                "imageId": "qahcakfnhx44ymptdoww",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 21000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                },
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "isBestseller": true,
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.2",
+                                        "ratingCount": "28 ratings",
+                                        "ratingCountV2": "28"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073546",
+                                "name": "Garlic Noodles",
+                                "category": "Noodles & Rice",
+                                "imageId": "a3c9b76134a647f548a516167e22dd0f",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 21000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.8",
+                                        "ratingCount": "5 ratings",
+                                        "ratingCountV2": "5"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073547",
+                                "name": "Chilly Garlic Noodles",
+                                "category": "Noodles & Rice",
+                                "imageId": "t4jy1fzkriovhbidoxll",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 21000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.1",
+                                        "ratingCount": "21 ratings",
+                                        "ratingCountV2": "21"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073551",
+                                "name": "Singapore Noodles",
+                                "category": "Noodles & Rice",
+                                "imageId": "onljnauihjkyj89fjjzz",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 21000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "3.8",
+                                        "ratingCount": "22 ratings",
+                                        "ratingCountV2": "22"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073554",
+                                "name": "Vegetable Fried Rice",
+                                "category": "Noodles & Rice",
+                                "imageId": "yoecywkabrgek92lyx0q",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 21000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.6",
+                                        "ratingCount": "9 ratings",
+                                        "ratingCountV2": "9"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073536",
+                                "name": "Sesame Chaap",
+                                "category": "Chaap",
+                                "imageId": "36099f7a4ce2e2d01394f74e456fc956",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 24000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "99118858",
+                                "name": "Honey Chilli chaap",
+                                "category": "Chaap",
+                                "imageId": "89138f253c038f14189a2bc91bffeb6b",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 27500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073517",
+                                "name": "Chilly Paneer Dry",
+                                "category": "Paneer",
+                                "imageId": "x5lki2ff0b77odgkgcz9",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 31500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "3.5",
+                                        "ratingCount": "6 ratings",
+                                        "ratingCountV2": "6"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073518",
+                                "name": "Chilly Paneer Gravy",
+                                "category": "Paneer",
+                                "imageId": "a5835fd8c014523986a8f40b49f8db58",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 31500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073519",
+                                "name": "Paneer Manchurian Dry",
+                                "category": "Paneer",
+                                "imageId": "bd1edcdf9b3b44a28ca0a0ea1f5c54df",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 31500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073520",
+                                "name": "Paneer Manchurian Gravy",
+                                "category": "Paneer",
+                                "imageId": "v61tvdb3utbdbn851ayk",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 31500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073525",
+                                "name": "Paneer Finger",
+                                "category": "Paneer",
+                                "imageId": "f7365a4554008b9ad86b77f75155906c",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 32000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073514",
+                                "name": "Honey Chilly Potato",
+                                "category": "Vegetables",
+                                "imageId": "hq1fj6ovqkmpbcdba2lk",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 27500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "2.0",
+                                        "ratingCount": "5 ratings",
+                                        "ratingCountV2": "5"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073515",
+                                "name": "Vegetable Manchurian Dry",
+                                "category": "Vegetables",
+                                "imageId": "0fefc23efca768bfccc4708341c1d354",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 30500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "2.1",
+                                        "ratingCount": "4 ratings",
+                                        "ratingCountV2": "4"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073516",
+                                "name": "Vegetable Manchurian Gravy",
+                                "category": "Vegetables",
+                                "imageId": "e98f9451019e852b6cf92cce1d009e7e",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 30500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.1",
+                                        "ratingCount": "8 ratings",
+                                        "ratingCountV2": "8"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073492",
+                                "name": "Butterscotch Shake",
+                                "category": "Shakes and Drinks",
+                                "imageId": "8f8c612e1df304858b1ff24d6cd463f9",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 13000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "76073493",
+                                "name": "Strawberry Shake",
+                                "category": "Shakes and Drinks",
+                                "imageId": "6eb7cb485dc8277c3c3005fb84746db1",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "price": 13000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "showImage": true,
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    }
+                ],
+                "type": "CATEGORY_TYPE_RECOMMENDED"
+            }
+        }
+    }
+]

@@ -31,7 +31,7 @@ const Body = () => {
     <div className="body">
       <div className="flex-none items-center ">
       <div className="search m-4 p-4">
-      <input type="text" className="text-center border border-solid border-black xl:border-black rounded-lg w-5/6" value={searchText} placeholder="Search for Restaurants and food"
+      <input data-testid="searchInput" type="text" className="text-center border border-solid border-black xl:border-black rounded-lg w-5/6" value={searchText} placeholder="Search for Restaurants and food"
       onChange={(e)=>{
         const currentSearch = e.currentTarget.value.toLowerCase();
         setsearchText(currentSearch)
