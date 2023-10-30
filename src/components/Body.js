@@ -1,6 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect, useContext} from "react";
-import { Shimmer } from "./Shimmer";
+import { ShimmerForRes } from "./Shimmer";
 import { Link } from "react-router-dom";
 import UserContext from "../utils/UserContext";
 
@@ -25,18 +25,22 @@ const Body = () => {
 
   } 
   const {loggedInUser, setUserName} = useContext(UserContext);
-  return (listOfRestaurants?.length===0)?(<Shimmer></Shimmer>)
+  return (listOfRestaurants?.length===0)?(<ShimmerForRes/>)
   :
    (
     <div className="body">
       <div className="flex-none items-center ">
-      <div className="search m-4 p-4">
-      <input data-testid="searchInput" type="text" className="text-center border border-solid border-black xl:border-black rounded-lg w-5/6" value={searchText} placeholder="Search for Restaurants and food"
+      <div className=" flex search m-4 p-4 items-center">
+      <input data-testid="searchInput" type="text" className="block w-9/12 h-14 p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg outline-none shadow-md focus:outline" value={searchText}  placeholder="Search for Restaurants and food"
       onChange={(e)=>{
         const currentSearch = e.currentTarget.value.toLowerCase();
         setsearchText(currentSearch)
+        const filteredList = listOfRestaurants.filter(
+          (res) => res.info.name.toLowerCase().includes(currentSearch)
+        );
+        setfiltedredRestaurants(filteredList);
       }}></input>
-      <button className="px-4 py-2 bg-blue-100 hover:bg-blue-300 m-4 rounded-lg" onClick={() => {
+      <button className="px-4 py-2 w-2/12 h-14 text-xl bg-blue-100 hover:bg-blue-300 m-4 rounded-lg" onClick={() => {
         console.log(searchText);
             const filteredList = listOfRestaurants.filter(
               (res) => res.info.name.toLowerCase().includes(searchText)
@@ -44,11 +48,11 @@ const Body = () => {
             setfiltedredRestaurants(filteredList);
             
           }}>search</button>
-    <input
+    {/* <input
             className="border border-black p-2"
             value={loggedInUser}
             onChange={(e) => setUserName(e.target.value)}
-          />
+          /> */}
       </div>
         <button
           className="px-4 py-0 h-10 bg-gray-100 m-4 rounded-lg hover:bg-gray-300"

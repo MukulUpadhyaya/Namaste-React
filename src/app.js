@@ -6,7 +6,7 @@ import { About } from "./components/About";
 import {Error} from "./components/Error";
 import {RestaurantMenu} from "./components/RestaurantMenu"
 import { createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
-import { Shimmer } from "./components/Shimmer";
+import { ShimmerForCart } from "./components/Shimmer";
 import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
@@ -54,7 +54,7 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: (
-          <Suspense fallback={<Shimmer></Shimmer>}>
+          <Suspense fallback={<ShimmerForCart></ShimmerForCart>}>
            <Contact/>
           </Suspense>
         ),
