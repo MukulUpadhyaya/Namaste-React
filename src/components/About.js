@@ -25,7 +25,7 @@ export const About = () => {
           <p className="mt-5 text-lg">
             Have questions, suggestions, or feedback? We'd love to hear from you!
             Feel free to contact our customer support team through our app, or
-            reach out to us via email at Munchmate@xyz.com. Thank you for choosing
+            reach out to us via email at foodforfoodies@xyz.com. Thank you for choosing
             FoodForFoodies as your food delivery partner. We look forward to serving
             you and satisfying your culinary cravings. Bon appétit!
           </p>
