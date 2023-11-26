@@ -11,7 +11,7 @@ const Cart = () => {
   const getCartTotal = () => {
     let sum = 0;
     cartItems.forEach((each) => {
-      sum += each?.card?.info?.price;
+      sum += each?.card?.info?.price? each.card.info.price: each?.card?.info?.defaultPrice;
     });
     return parseInt(sum / 100);
   };
